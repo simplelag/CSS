@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구글 폰트 사용하기</title>
+<style>
+    #div01 .font1{
+        font-family: 'Nanum Myeongjo', serif;
+        font-size : 24px;
+        color : rgb(114, 0 ,0);
+    }
+    #div01 .font2{
+        font-family: 'Nanum Myeongjo', serif;
+        font-size : 1.5em;
+    }
+</style>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+<div id="div01">
+    <h3>구글 폰트 적용하기</h3>
+    <p>구글 폰트를 적용하지 않은 글자</p>
+    <p class="font1">구글 폰트를 적용한 글자</p>
+    <p class="font1">구글 폰트를 적용한 글자</p>
+</div>
+
+<div id="div02">
+    
+    <h3>색상 적용하기</h3>
+    
+
+    <div id="div02-1">
+        <H3>컬러 이름 사용</H3>
+        <p style="color : dodgerblue">컬러 이름으로 색상을 변경할 태그1</p>
+        <p style="color : honeydew">컬러 이름으로 색상을 변경할 태그</p>
+    </div>
+
+    <div id="div02-2">
+        <h3>hex 방식</h3>
+        <p style="color : #ff011f">hex방식으로 색상을 변경할 태그1</p>
+        <p style="color : #cccccc">hex방식으로 색상을 변경할 태그1</p>
+    </div>
+    
+    <div id="div02-3">
+        <h3>rgb,rgba 방식</h3>
+        <p style="color: rgb(114,0,0) ">rgb 방식으로 색상을 변경한 태그1</p>
+        <p style="color: rgba(123,5,1,0.7)">rgba 방식으로    색상을 변경한 태그1</p>
+        <p style="color: rgba(123,5,1,0.3)">rgba 방식으로    색상을 변경한 태그1</p>
+    </div>
+
+    <div id="div02-4">
+        <h3>hs/hsla 방식</h3>
+        <p style="color: hsl(134,39%,34%)">hsl방식으로 색상을 변경한 태그</p>
+        <p style="color: hsla(134,39%,34%,0.3)">hsl방식으로 색상을 변경한 태그</p>
+        <p style="color: hsla(134,39%,34%,0.7)">hsl방식으로 색상을 변경한 태그</p>
+    </div>
+
+
+</div>
+</body>
+</html>
